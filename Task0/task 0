@@ -1,0 +1,62 @@
+Тестування та зміна файлу
+
+![Screenshot_5](https://user-images.githubusercontent.com/86793244/124657848-b1e0b680-deab-11eb-821d-fe80d7a37130.png)
+
+![Screenshot_4](https://user-images.githubusercontent.com/86793244/124657852-b311e380-deab-11eb-988c-46254c74d82b.png)
+
+![Screenshot_1](https://user-images.githubusercontent.com/86793244/124657857-b4431080-deab-11eb-85da-ef19fe614c1d.png)
+
+
+Клонування через Гітхаб Десктоп
+
+![clone](https://user-images.githubusercontent.com/86793244/124657754-95dd1500-deab-11eb-9722-7c98ebd6a953.png)
+![1](https://user-images.githubusercontent.com/86793244/124657772-9aa1c900-deab-11eb-8a14-ff8352486fad.png)
+![2](https://user-images.githubusercontent.com/86793244/124657786-9e355000-deab-11eb-9cee-cab070536e29.png)
+
+
+Результат роботи коду
+![Screenshot_2](https://user-images.githubusercontent.com/86793244/124655989-48f83f00-dea9-11eb-9dc5-7326e9d4594b.png)
+
+from random import randint
+
+# variabels
+maximum_elements_in_array = 0
+created_array = []
+created_array_with_negative_numbers = []
+max_number_in_array = 0
+negative_numbers_exist = False
+# variabels
+
+
+while maximum_elements_in_array < 30:
+    created_array.append(randint(-100, 100))
+
+    if created_array[-1] > max_number_in_array:
+        max_number_in_array = created_array[-1]
+
+    if created_array[-1] < 0:
+        created_array_with_negative_numbers.append(created_array[-1])
+        negative_numbers_exist = True
+
+
+    maximum_elements_in_array += 1
+
+
+# Output information
+print()
+print()
+print("Created array with numbers between -100, 100")
+print(created_array)
+print()
+print("Maximum in array")
+print(max_number_in_array)
+print("Index of maximum in array (starts from zero)")
+print(created_array.index(max_number_in_array))
+
+if negative_numbers_exist:
+    print("Created array with negative numbers sorted")
+    print(sorted(created_array_with_negative_numbers, reverse=True) )
+else:
+    print("No negative numbers in array")
+print()
+
