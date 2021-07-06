@@ -13,5 +13,7 @@
 ![1](https://user-images.githubusercontent.com/86793244/124657772-9aa1c900-deab-11eb-8a14-ff8352486fad.png)
 ![2](https://user-images.githubusercontent.com/86793244/124657786-9e355000-deab-11eb-9cee-cab070536e29.png)
 
+
+Результат роботи коду
 ![Screenshot_2](https://user-images.githubusercontent.com/86793244/124655989-48f83f00-dea9-11eb-9dc5-7326e9d4594b.png)
-Результат роботи
+
