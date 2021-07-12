@@ -16,9 +16,7 @@
 
 ![Screenshot_5](https://user-images.githubusercontent.com/86793244/124813631-ca190a00-df6d-11eb-8bb4-7b9d0266c3e4.png)
 
-Результат
 
-![Screenshot_7](https://user-images.githubusercontent.com/86793244/124813689-d8672600-df6d-11eb-821e-290cfa1bd0e2.png)
 
 
 
